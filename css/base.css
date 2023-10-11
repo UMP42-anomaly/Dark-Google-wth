@@ -1,0 +1,23 @@
+body {
+  background-color: #202124;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+}

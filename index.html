@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Google</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x- icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <div>
+          <a
+            href="https://mail.google.com/mail/?authuser=0&ogbl"
+            target="_blank"
+            >Gmail</a
+          >
+          <a href="https://www.google.com/imghp?hl=uk&authuser=0&ogbl"
+            >Images</a
+          >
+        </div>
+        <button type="button"></button>
+        <a
+          class="user-profile"
+          href="https://accounts.google.com/SignOutOptions?hl=uk&continue=https://www.google.com/&ec=GBRAmgQ"
+          ><img
+            src="img/profile.png"
+            alt="profile image"
+            height="32"
+            width="32"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <img src="img/google.png" alt="" height="92" />
+        <form id="myForm">
+          <div class="search-input">
+            <div class="search-icon-container">
+              <svg class="search-icon" height="24" width="24">
+                <use href="./svg/search.svg#search"></use>
+              </svg>
+            </div>
+            <input id="search" type="text" />
+            <script src="js/input-search.js"></script>
+          </div>
+        </form>
+        <div class="main-btns">
+          <button id="main-btn1" type="button">Google Search</button>
+          <button id="main-btn2" type="button">I feel lucky!</button>
+          <script src="js/search.js"></script>
+          <script src="js/rr.js"></script>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div><p>Ukraine</p></div>
+      <div class="footer-links">
+        <div>
+          <a href="error.html">About Google</a
+          ><a href="error.html">Advertisement</a
+          ><a href="error.html">For Business</a
+          ><a href="error.html">How It Works(GitHub)</a>
+        </div>
+        <div>
+          <a href="error.html">Pirvacy</a><a href="error.html">Conditions</a
+          ><a href="error.html">Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

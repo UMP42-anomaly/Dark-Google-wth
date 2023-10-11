@@ -1,0 +1,28 @@
+footer > div {
+  padding: 15px 30px;
+  background-color: #171717;
+  border-bottom: 1px solid #3c4043;
+}
+
+footer p,
+footer a,
+footer a:visited {
+  margin: 0;
+  color: #9aa0a6;
+  font-size: 15px;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links div {
+  display: flex;
+  gap: 40px;
+}

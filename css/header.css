@@ -1,0 +1,62 @@
+header {
+  width: 100vw;
+  height: 60px;
+  padding: 6px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  font-size: 13px;
+  line-height: 27px;
+  margin-right: 15px;
+}
+
+header a:hover,
+header a:focus {
+  text-decoration: underline;
+}
+
+header button {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  background-color: transparent;
+  border: solid #fff 1px;
+  border-radius: 25%;
+  margin-right: 15px;
+}
+
+header button:hover,
+header button:focus {
+  background-color: #ffffff55;
+}
+
+header button::after {
+  position: absolute;
+  top: -10%;
+  left: 20%;
+  content: "...";
+  color: #fff;
+}
+
+header .user-profile {
+  height: 40px;
+  width: 40px;
+  padding: 4px;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  border: solid #fff 1px;
+}
+
+header .user-profile:hover img,
+header .user-profile:focus img {
+  border-width: 2px;
+}
